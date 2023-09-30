@@ -6,6 +6,11 @@
 
 🚀 An demo MVP for Femida app written in Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
+### What's Femida?
+
+The charitable giving dilemma is a universal challenge. People want to make a positive impact on the world, but they also want to safeguard their financial well-being. The fear of future financial uncertainties often acts as a barrier to charitable giving. We recognized this dilemma as a significant barrier to philanthropy and set out to address it.
+
+Femida offers a groundbreaking solution to the charitable giving dilemma by binging Non-Fungible Tokens (NFTs) into the world of philanthropy. When you donate through Femida, you receive NFT tokens that represent your contribution. These NFTs serve as a financial safety net, ensuring that your generosity today doesn't jeopardize your financial security tomorrow.
 
 ### Requirements
 
