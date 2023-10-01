@@ -15,7 +15,7 @@ const Hero = () => (
       <HeroOneButton
         title={<>{'turn donations into assets you can get back'}</>}
         button={
-          <Link href="#services">
+          <Link href="/explore">
             <Button xl>explore fundraisers</Button>
           </Link>
         }
