@@ -25,17 +25,20 @@ const Footer = () => (
         }
         iconList={
           <>
-            <a href="https://vm.tiktok.com/ZSLTYjakE/" target="_blank">
+            <a
+              href="https://www.linkedin.com/company/femida-app/"
+              target="_blank"
+            >
               <SocialIcon color="dark">
                 <FaLinkedin />
               </SocialIcon>
             </a>
-            <a href="https://vm.tiktok.com/ZSLTYjakE/" target="_blank">
+            <a href="https://x.com/femidaofficial" target="_blank">
               <SocialIcon color="dark">
                 <FaTwitter />
               </SocialIcon>
             </a>
-            <a href="https://vm.tiktok.com/ZSLTYjakE/" target="_blank">
+            <a href="https://instagram.com/femida.app" target="_blank">
               <SocialIcon color="dark">
                 <FaInstagram />
               </SocialIcon>
