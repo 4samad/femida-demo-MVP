@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6';
 
@@ -6,13 +7,22 @@ import { SocialIcon } from '@/socialIcon/SocialIcon';
 import { Background } from '../background/Background';
 import { CenteredFooter } from '../footer/CenteredFooter';
 import { Section } from '../layout/Section';
-import { Logo } from './Logo';
 
 const Footer = () => (
   <Background color="bg-gray-100">
     <Section>
       <CenteredFooter
-        logo={<Logo />}
+        logo={
+          <span className="inline-flex items-center">
+            <Image
+              className="p-2"
+              src="/logo-transparent-black.png"
+              alt="Femida Logo"
+              height={80}
+              width={200}
+            />
+          </span>
+        }
         iconList={
           <>
             <a href="https://vm.tiktok.com/ZSLTYjakE/" target="_blank">
