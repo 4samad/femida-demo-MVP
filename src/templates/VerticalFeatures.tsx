@@ -1,4 +1,4 @@
-import { FaRocket } from 'react-icons/fa6';
+import { FaHandshake, FaKey, FaStar } from 'react-icons/fa6';
 
 import { Background } from '@/background/Background';
 import { VerticalFeatureRowSmall } from '@/feature/VerticalFeatureRowSmall';
@@ -35,19 +35,19 @@ const VerticalFeatures = () => (
           title="secure"
           description="Donors can give confidently, knowing that their donations are not only making a difference in the world but also safeguarding their own future needs."
           reverse
-          icon={<FaRocket size={80} color="#d1d1d1" />}
+          icon={<FaKey size={80} color="#d1d1d1" />}
         />
         <VerticalFeatureRowSmall
           title="transparent"
           description="Our use of blockchain technology and smart contracts ensures complete transparency and trust in the charitable process."
           reverse
-          icon={<FaRocket size={80} color="#d1d1d1" />}
+          icon={<FaHandshake size={80} color="#d1d1d1" />}
         />
         <VerticalFeatureRowSmall
           title="impactful"
           description="We collaborate with a network of reputable NGOs to verify and support impactful projects, amplifying the positive change donors can make."
           reverse
-          icon={<FaRocket size={80} color="#d1d1d1" />}
+          icon={<FaStar size={80} color="#d1d1d1" />}
         />
         <div className="h-10" />
       </Section>
