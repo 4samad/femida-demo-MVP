@@ -54,14 +54,16 @@ const VerticalFeatures = () => (
     </Background>
     <Section title="f.a.q" yPadding="py-32">
       <div className="m-auto mt-10 max-w-5xl text-center">
-        <h3 className="mb-4 text-3xl">What technology powers Femida?</h3>
+        <h3 className="mb-4 text-3xl font-bold">
+          What technology powers Femida?
+        </h3>
         <p>
           Femida leverages blockchain technology and smart contracts to ensure
           transparency and trust in the donation process. We also use NFTs
           (Non-Fungible Tokens) to represent contributions.
         </p>
         <hr className="my-10" />
-        <h3 className="mb-4 text-3xl">
+        <h3 className="mb-4 text-3xl font-bold">
           What are NFTs, and how do they work on Femida
         </h3>
         <p>
@@ -70,7 +72,7 @@ const VerticalFeatures = () => (
           that symbolizes your contribution and future financial security.
         </p>
         <hr className="my-10" />
-        <h3 className="mb-4 text-3xl">
+        <h3 className="mb-4 text-3xl font-bold">
           Are there any fees associated with using Femida?
         </h3>
         <p>
@@ -79,7 +81,7 @@ const VerticalFeatures = () => (
           process.
         </p>
         <hr className="my-10" />
-        <h3 className="mb-4 text-3xl">
+        <h3 className="mb-4 text-3xl font-bold">
           Can I trade or sell my NFTs to others?
         </h3>
         <p>
@@ -87,7 +89,7 @@ const VerticalFeatures = () => (
           They can be transferred to different wallet addresses if desired.
         </p>
         <hr className="my-10" />
-        <h3 className="mb-4 text-3xl">
+        <h3 className="mb-4 text-3xl font-bold">
           How can I participate in Femida&apos;s token reward system?
         </h3>
         <p>
