@@ -21,7 +21,7 @@ Femida offers a groundbreaking solution to the charitable giving dilemma by bing
 Run the following command on your local environment:
 
 ```
-git clone --depth=1 https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template.git my-project-name
+git clone --depth=1 https://github.com/4samad/femida-demo-MVP.git my-project-name
 cd my-project-name
 npm install
 ```
@@ -96,17 +96,6 @@ npm run build-prod
 
 Now, your theme is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
 
-### Deploy to Netlify
-
-Clone this repository on own GitHub account and deploy to Netlify:
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template)
-
-### Deploy to Vercel
-
-Deploy this Next JS Boilerplate on Vercel in one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fixartz%2FNext-JS-Landing-Page-Starter-Template)
 
 ### VSCode information (optional)
 
@@ -126,4 +115,4 @@ See [LICENSE](LICENSE) for more information.
 
 ---
 
-♥ [Femida](https://femida.app) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/femidaofficial)
+♥ [Femida](https://femida.app) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow)](https://twitter.com/femidaofficial)
