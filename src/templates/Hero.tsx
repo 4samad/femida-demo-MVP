@@ -4,36 +4,18 @@ import { Background } from '../background/Background';
 import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
-import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
+import { NavMenu } from './NavMenu';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
-    <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
-        <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
-          </Link>
-        </li>
-        <li>
-          <Link href="/">Sign in</Link>
-        </li>
-      </NavbarTwoColumns>
-    </Section>
+  <Background color="bg-gray-900" image="/assets/images/bg-children.jpg">
+    <NavMenu />
 
-    <Section yPadding="pt-20 pb-32">
+    <Section yPadding="py-32">
       <HeroOneButton
-        title={
-          <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
-          </>
-        }
-        description="The easiest way to build a React landing page in seconds."
+        title={<>{'turn donations into assets you can get back'}</>}
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <Button xl>Download Your Free Theme</Button>
+          <Link href="#services">
+            <Button xl>explore fundraisers</Button>
           </Link>
         }
       />
