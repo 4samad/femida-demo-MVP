@@ -10,6 +10,7 @@ type IBoxFeatureProps = {
   image?: string;
   amount?: string;
   id: string;
+  link: string;
 };
 
 const BoxFeature = (props: IBoxFeatureProps) => {
@@ -37,7 +38,9 @@ const BoxFeature = (props: IBoxFeatureProps) => {
         <div className="text-xl font-semibold text-[#444]">{props.title}</div>
         {props.description && <p className="mt-4">{props.description}</p>}
         <div className="mt-8 flex flex-row-reverse justify-between">
-          <Button>donate now</Button>
+          <a href={props.link} target="_blank">
+            <Button>donate now</Button>{' '}
+          </a>
           {props.amount && (
             <span className="text-2xl font-bold text-neutral-700">
               {props.amount}
