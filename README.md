@@ -115,4 +115,4 @@ See [LICENSE](LICENSE) for more information.
 
 ---
 
-♥ [Femida](https://femida.app) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow)](https://twitter.com/femidaofficial)
+♥ [Femida](https://femida.app) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow)](https://twitter.com/femida_app)

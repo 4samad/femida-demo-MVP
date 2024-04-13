@@ -33,7 +33,7 @@ const Footer = () => (
                 <FaLinkedin />
               </SocialIcon>
             </a>
-            <a href="https://x.com/femidaofficial" target="_blank">
+            <a href="https://x.com/femida_app" target="_blank">
               <SocialIcon color="dark">
                 <FaTwitter />
               </SocialIcon>
